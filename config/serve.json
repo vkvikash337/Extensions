@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://infogain77.sharepoint.com/sites/CommunicationSite2/SitePages/Home.aspx",
+      "customActions": {
+        "bb421f59-dce4-4ec4-b4a5-7eb7e7597603": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "searchExt": {
+      "pageUrl": "https://infogain77.sharepoint.com/sites/CommunicationSite2/SitePages/Home.aspx",
+      "customActions": {
+        "bb421f59-dce4-4ec4-b4a5-7eb7e7597603": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

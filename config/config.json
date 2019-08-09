@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "search-ext-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/searchExt/SearchExtApplicationCustomizer.js",
+          "manifest": "./src/extensions/searchExt/SearchExtApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "SearchExtApplicationCustomizerStrings": "lib/extensions/searchExt/loc/{locale}.js"
+  }
+}
